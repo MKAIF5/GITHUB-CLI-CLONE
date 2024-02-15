@@ -1,18 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
 }
+
 
 nav {
     background-color: rgb(0, 0, 13);
-    height: 780px;
+    height: auto;
     width: 100%;
     color: white;
 }
 
-.nav{
+.nav {
     height: 60px;
     display: flex;
     justify-content: center;
@@ -21,40 +22,40 @@ nav {
 
 }
 
-nav .nav-left{
+nav .nav-left {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-nav .nav-left span{
+nav .nav-left span {
     font-size: 16px;
 }
 
-nav .nav-left i{
+nav .nav-left i {
     font-size: 32px;
     width: 33px;
 }
 
-.nav-right{
+.nav-right {
     display: flex;
     gap: 23px;
     font-size: 14px;
 }
 
-nav .nav-main h1{
+nav .nav-main h1 {
     color: white;
     font-size: 72px;
     font-weight: 800;
 
 }
 
-nav .nav-main .nav-p{
+nav .nav-main .nav-p {
     font-size: 24px;
     color: #6e7681;
 }
 
-nav .nav-main button{
+nav .nav-main button {
     width: 273px;
     height: 56px;
     padding: 16px 30px 20px 30px;
@@ -66,13 +67,145 @@ nav .nav-main button{
     border-radius: 10px;
 }
 
-nav .nav-main .nav-p-p{
+nav .nav-main .nav-p-p {
     color: white;
     font-size: 14px;
 }
 
-nav .nav-main{
-    margin-left: 300px;
-    line-height: 70px;
+nav .nav-hero {
+    display: flex;
+    justify-content: center;
 }
 
+/* .sec-main{
+    background-image: radial-gradient(circle, rgb(68, 48, 106), black);
+    width: 100%;
+    height: 500px;
+} */
+
+@media only screen and (max-width:840px) {
+    nav .nav-main h1 {
+        font-size: 40px;
+    }
+
+    nav .nav-main .nav-p {
+        font-size: 20px;
+    }
+
+    nav .nav-main button {
+        width: 230px;
+        font-size: 13px;
+    }
+
+    nav .nav-main .nav-p-p {
+        font-size: 13px;
+    }
+
+    nav .nav-right {
+        font-size: 12px;
+    }
+
+    nav .nav {
+        display: flex;
+        justify-content: center;
+        gap: 50%;
+    }
+
+}
+
+@media only screen and (max-width:720px) {
+    nav .nav-main h1 {
+        font-size: 35px;
+    }
+
+    nav .nav-main .nav-p {
+        font-size: 17px;
+    }
+
+    nav .nav-main button {
+        width: 200px;
+        font-size: 11px;
+    }
+
+    nav .nav-main .nav-p-p {
+        font-size: 11px;
+    }
+
+    nav .nav-right {
+        font-size: 10px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        gap: 50%;
+    }
+
+}
+
+@media only screen and (max-width:470px) {
+    nav {
+        text-wrap: wrap;
+    }
+
+    nav .nav {
+        display: flex;
+        justify-content: center;
+        gap: 30%;
+    }
+
+    nav .nav-main h1 {
+        font-size: 25px;
+    }
+
+    nav .nav-hero {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .nav-main .nav-p {
+        font-size: 15px;
+    }
+
+    nav .nav-main button {
+        width: 150px;
+        font-size: 9px;
+    }
+
+    nav .nav-main .nav-p-p {
+        font-size: 10px;
+    }
+
+    nav .nav-right {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    nav .nav {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    nav .nav-hero{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .nav-main h1{
+        font-size: 20px;
+    }
+
+    nav .nav-main .nav-p{
+        font-size: 12px;
+    }
+
+    nav .nav-main button{
+        width: 200px;
+    }
+
+    nav .nav-main .nav-p-p{
+        font-size: 7px;
+    }
+}
