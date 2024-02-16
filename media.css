@@ -8,6 +8,63 @@
     .sec-imp p {
         font-size: 13px;
     }
+
+    .main .main-h2 h2 {
+        font-size: 40px;
+    }
+
+    .main .main-m .main-one h3 {
+        font-size: 20px;
+    }
+
+    .main .main-m .main-two h3 {
+        font-size: 20px;
+    }
+
+    .main .main-m .main-three h3 {
+        font-size: 20px;
+    }
+
+    .main .main-m .main-four h3 {
+        font-size: 20px;
+    }
+
+
+
+    .main .main-m .main-one p {
+        font-size: 12px;
+    }
+
+    .main .main-m .main-two p {
+        font-size: 12px;
+    }
+
+    .main .main-m .main-three p {
+        font-size: 12px;
+    }
+
+    .main .main-m .main-four p {
+        font-size: 12px;
+    }
+
+
+    .main .main-m .main-one a {
+        font-size: 10px;
+    }
+
+    .main .main-m .main-two a {
+        font-size: 10px;
+    }
+
+    .main .main-m .main-three a {
+        font-size: 10px;
+    }
+
+    .main .main-m .main-four a {
+        font-size: 10px;
+    }
+
+
 }
 
 
@@ -114,6 +171,46 @@
         display: flex;
         justify-content: center;
         gap: 50%;
+    }
+
+    .main .main-h2 h2 {
+        font-size: 23px;
+    }
+
+    .main .main-m .main-one h3 {
+        font-size: 19px;
+    }
+
+    .main .main-m .main-two h3 {
+        font-size: 19px;
+    }
+
+    .main .main-m .main-three h3 {
+        font-size: 19px;
+    }
+
+    .main .main-m .main-four h3 {
+        font-size: 19px;
+    }
+
+    .main .main-m .main-one p {
+        font-size: 14px;
+    }
+
+    .main .main-m .main-two p {
+        font-size: 14px;
+    }
+
+    .main .main-m .main-three p {
+        font-size: 14px;
+    }
+
+    .main .main-m .main-four p {
+        font-size: 14px;
+    }
+
+    .main .main-m {
+        flex-direction: column;
     }
 
 }
@@ -261,6 +358,66 @@
     .sec-main a img {
         width: 350px;
     }
+}
+
+@media only screen and (max-width:400px){
+    nav .nav-hero{
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+    }  
+
+    nav .nav-main h1{
+        font-size: 20px;
+    } 
+
+    .sec-imp{
+            width: 250px;
+            background-color: #010409;
+            padding: 15px;
+    }
+
+    .sec-main a img {
+        width: 270px;
+    }
+
+
+    .main .main-h2 h2 {
+        font-size: 21px;
+    }
+
+    .main .main-m .main-one h3 {
+        font-size: 17px;
+    }
+
+    .main .main-m .main-two h3 {
+        font-size: 17px;
+    }
+
+    .main .main-m .main-three h3 {
+        font-size: 17px;
+    }
+
+    .main .main-m .main-four h3 {
+        font-size: 17px;
+    }
+
+    .main .main-m .main-one p {
+        font-size: 12px;
+    }
+
+    .main .main-m .main-two p {
+        font-size: 12px;
+    }
+
+    .main .main-m .main-three p {
+        font-size: 12px;
+    }
+
+    .main .main-m .main-four p {
+        font-size: 12px;
+    }
+
 }
 
 @media only screen and (max-width:300px) {
