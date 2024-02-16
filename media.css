@@ -1,3 +1,18 @@
+@media only screen and (max-width:960px) {
+    .sec-imp {
+        width: 700px;
+        background-color: #010409;
+        padding: 15px;
+    }
+
+    .sec-imp p {
+        font-size: 13px;
+    }
+}
+
+
+
+
 
 @media only screen and (max-width:840px) {
     nav .nav-main h1 {
@@ -25,6 +40,49 @@
         display: flex;
         justify-content: center;
         gap: 50%;
+    }
+
+    .sec-imp {
+        width: 500px;
+        background-color: #010409;
+        padding: 15px;
+    }
+
+    .sec-imp p {
+        font-size: 12px;
+    }
+
+    .sec-main a {
+        font-size: 10px;
+    }
+
+    .sec-main p {
+        font-size: 12px;
+    }
+
+    .sec-imp .imp-one {
+        width: 10px;
+        height: 10px;
+        background-color: #1a1a1b;
+        border-radius: 50%;
+    }
+
+    .sec-imp .imp-two {
+        width: 10px;
+        height: 10px;
+        background-color: #1a1a1b;
+        border-radius: 50%;
+    }
+
+    .sec-imp .imp-three {
+        width: 10px;
+        height: 10px;
+        background-color: #1a1a1b;
+        border-radius: 50%;
+    }
+
+    .sec-imp .imp-play .fa-pause{
+        font-size: 17px;
     }
 
 }
@@ -59,6 +117,56 @@
 
 }
 
+@media only screen and (max-width:560px){
+    .sec-imp {
+        width: 400px;
+        background-color: #010409;
+        padding: 15px;
+    }
+
+    .sec-imp p {
+        font-size: 10px;
+        text-wrap: wrap;
+    }
+
+    .sec-main a {
+        font-size: 10px;
+    }
+
+    .sec-main p {
+        font-size: 10px;
+    }
+
+    .sec-imp .imp-one {
+        width: 7px;
+        height: 7px;
+        background-color: #1a1a1b;
+        border-radius: 50%;
+    }
+
+    .sec-imp .imp-two {
+        width: 7px;
+        height: 7px;
+        background-color: #1a1a1b;
+        border-radius: 50%;
+    }
+
+    .sec-imp .imp-three {
+        width: 7px;
+        height: 7px;
+        background-color: #1a1a1b;
+        border-radius: 50%;
+    }
+
+    .sec-imp .imp-play .fa-pause{
+        font-size: 14px;
+    }
+
+    .sec-main h5{
+        font-size: 19px;
+    }
+}
+
 @media only screen and (max-width:470px) {
     nav {
         text-wrap: wrap;
@@ -84,9 +192,8 @@
     }
 
     nav .nav-main button {
-        width: 100px;
-        height: 35px;
-        font-size: 8px;
+        width: 150px;
+        font-size: 10px;
     }
 
     nav .nav-main .nav-p-p {
@@ -105,24 +212,25 @@
         gap: 10%;
     }
 
-    nav .nav-hero{
+    nav .nav-hero {
         display: flex;
         justify-content: center;
     }
 
-    nav .nav-main h1{
+    nav .nav-main h1 {
         font-size: 20px;
     }
 
-    nav .nav-main .nav-p{
+    nav .nav-main .nav-p {
         font-size: 12px;
     }
 
-    nav .nav-main button{
-        width: 200px;
+    nav .nav-main button {
+        width: 150px;
+        font-size: 9px;
     }
 
-    nav .nav-main .nav-p-p{
+    nav .nav-main .nav-p-p {
         font-size: 7px;
     }
 }
