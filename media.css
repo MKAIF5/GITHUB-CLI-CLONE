@@ -81,11 +81,12 @@
         border-radius: 50%;
     }
 
-    .sec-imp .imp-play .fa-pause{
+    .sec-imp .imp-play .fa-pause {
         font-size: 17px;
     }
 
 }
+
 
 @media only screen and (max-width:720px) {
     nav .nav-main h1 {
@@ -117,7 +118,7 @@
 
 }
 
-@media only screen and (max-width:560px){
+@media only screen and (max-width:560px) {
     .sec-imp {
         width: 400px;
         background-color: #010409;
@@ -158,13 +159,18 @@
         border-radius: 50%;
     }
 
-    .sec-imp .imp-play .fa-pause{
+    .sec-imp .imp-play .fa-pause {
         font-size: 14px;
     }
 
-    .sec-main h5{
+    .sec-main h5 {
         font-size: 19px;
     }
+
+    .sec-main a img {
+        width: 400px;
+    }
+
 }
 
 @media only screen and (max-width:470px) {
@@ -202,6 +208,58 @@
 
     nav .nav-right {
         font-size: 10px;
+    }
+
+    .sec-imp {
+        width: 300px;
+        background-color: #010409;
+        padding: 15px;
+    }
+
+    .sec-imp p {
+        font-size: 8px;
+        text-wrap: wrap;
+    }
+
+    .sec-main a {
+        font-size: 10px;
+    }
+
+    .sec-main p {
+        font-size: 10px;
+    }
+
+    .sec-imp .imp-one {
+        width: 5px;
+        height: 5px;
+        background-color: #1a1a1b;
+        border-radius: 50%;
+    }
+
+    .sec-imp .imp-two {
+        width: 5px;
+        height: 5px;
+        background-color: #1a1a1b;
+        border-radius: 50%;
+    }
+
+    .sec-imp .imp-three {
+        width: 5px;
+        height: 5px;
+        background-color: #1a1a1b;
+        border-radius: 50%;
+    }
+
+    .sec-imp .imp-play .fa-pause {
+        font-size: 14px;
+    }
+
+    .sec-main h5 {
+        font-size: 15px;
+    }
+
+    .sec-main a img {
+        width: 350px;
     }
 }
 

@@ -88,71 +88,175 @@ nav .nav-hero {
     color: white;
 }
 
-.sec-main .sec-first a{
+.sec-main .sec-first a {
     font-size: 24px;
     font-weight: 500;
 }
 
-.sec-main .sec-first p{
+.sec-main .sec-first p {
     font-size: 16px;
 }
 
-.sec-imp{
+.sec-imp {
     width: 900px;
     height: 400px;
     background-color: #010409;
     padding: 15px;
 }
 
-.sec-imp .imp-one{
+.sec-imp .imp-one {
     width: 15px;
     height: 15px;
     background-color: #1a1a1b;
     border-radius: 50%;
 }
 
-.sec-imp .imp-two{
+.sec-imp .imp-two {
     width: 15px;
     height: 15px;
     background-color: #1a1a1b;
     border-radius: 50%;
 }
 
-.sec-imp .imp-three{
+.sec-imp .imp-three {
     width: 15px;
     height: 15px;
     background-color: #1a1a1b;
     border-radius: 50%;
 }
 
-.sec-imp .imp-resp{
+.sec-imp .imp-resp {
     display: flex;
     gap: 5px;
 }
 
-.sec-imp .imp-play .fa-pause{
+.sec-imp .imp-play .fa-pause {
     font-size: 25px;
 }
 
-.sec-imp .sec-resp{
+.sec-imp .sec-resp {
     display: flex;
     justify-content: space-around;
     gap: 90%;
 }
 
-.sec-imp p{
+.sec-imp p {
     font-size: 16px;
     letter-spacing: 1.5px;
     word-spacing: 1.5px;
 }
 
-.section{
+.section {
     display: flex;
     justify-content: center;
 }
 
-.sec-main h5{
+.sec-main h5 {
     font-size: 24px;
     text-align: center;
     color: white;
+}
+
+.main {
+    width: 100%;
+    height: 442px;
+    background-color: white;
+    padding: 50px;
+}
+
+.main h2 {
+    font-size: 64px;
+    font-weight: 800;
+    color: #1f2328;
+}
+
+
+.main .main-m .main-one{
+    line-height: 27px;
+}
+
+.main .main-m .main-two{
+    line-height: 27px;
+}
+
+.main .main-m .main-three{
+    line-height: 27px;
+}
+
+.main .main-m .main-four{
+    line-height: 27px;
+}
+
+.main .main-m .main-one h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1f2328;
+
+}
+
+.main .main-m .main-one p {
+    font-size: 14px;
+    color: #6e7681;
+}
+
+.main .main-m .main-one a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #0969da;
+}
+
+.main .main-m .main-two h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1f2328;
+}
+
+.main .main-m .main-two p {
+    font-size: 14px;
+    color: #6e7681;
+}
+
+.main .main-m .main-two a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #0969da;
+}
+
+.main .main-m .main-three h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1f2328;
+}
+
+.main .main-m .main-three p {
+    font-size: 14px;
+    color: #6e7681;
+}
+
+.main .main-m .main-three a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #0969da;
+}
+
+.main .main-m .main-four h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1f2328;
+}
+
+.main .main-m .main-four p {
+    font-size: 14px;
+    color: #6e7681;
+}
+
+.main .main-m .main-four a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #0969da;
+}
+
+.main .main-m{
+    display: flex;
+    gap: 50px;
 }
