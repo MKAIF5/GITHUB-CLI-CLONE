@@ -78,7 +78,9 @@ nav .nav-hero {
 }
 
 .sec-main {
-    background-image: url(./images/light-glow\ \(1\).svg);
+    background-image: url(./images/./light-glow\ \(1\).svg);
+    background-position: bottom;
+    background-position: center;
     width: 100%;
     height: auto;
     background-color: rgb(3, 3, 3);
@@ -279,19 +281,20 @@ section .main-last {
     padding: 30px 30px 30px 30px;
 }
 
-section .main-last h2{
+
+section .main-last h2 {
     font-size: 32px;
     font-weight: 800;
     color: #1f2328;
 }
 
 
-section .main-last p{
+section .main-last p {
     font-size: 16px;
     color: #6e7681;
 }
 
-section .main-last button{
+section .main-last button {
     width: 218px;
     height: 50px;
     padding: 5px 5px 5px 5px;
@@ -302,35 +305,63 @@ section .main-last button{
     box-shadow: 2px 2px 2px 2px white;
 }
 
-section .main-last a{
+section .main-last a {
     font-size: 14px;
     color: #0969da;
     text-decoration: none;
 }
 
-footer{
+footer {
     width: 100%;
-    height: 413px;
+    height: 313px;
     background-color: white;
     display: flex;
     justify-content: space-around;
 }
 
 
-footer  p{
+footer p {
     font-size: 14px;
     color: #6e7681;
     letter-spacing: 1px;
     line-height: 30px;
 }
 
-footer .footer-p{
+footer .footer-p {
     font-size: 16px;
     color: #1f2328;
     letter-spacing: 1px;
 }
 
-footer .footer-main{
+footer .footer-main {
     display: flex;
     gap: 50px;
+}
+
+.cli-last {
+    width: 100%;
+    height: 68px;
+    background-color: rgb(241, 248, 248);
+    color: #1f2328;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cli-last .cli-first {
+    display: flex;
+    gap: 10px;
+}
+
+.cli-last .cli-lasts {
+    display: flex;
+    gap: 10px;
+}
+
+.cli-last p {
+    font-size: 12px;
+}
+
+.cli-last i {
+    font-size: 18px;
 }
