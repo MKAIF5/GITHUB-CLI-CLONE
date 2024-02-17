@@ -1,3 +1,10 @@
+@media only screen and (max-width:1110px) {
+    .main {
+        height: auto;
+    }
+}
+
+
 @media only screen and (max-width:960px) {
     .sec-imp {
         width: 700px;
@@ -28,8 +35,6 @@
     .main .main-m .main-four h3 {
         font-size: 20px;
     }
-
-
 
     .main .main-m .main-one p {
         font-size: 12px;
@@ -64,7 +69,33 @@
         font-size: 10px;
     }
 
+    section .main-last {
+        width: 800px;
+        height: auto;
+    }
 
+    section .main-last h2 {
+        font-size: 20px;
+    }
+
+    section .main-last p {
+        font-size: 14px;
+    }
+
+    section .main-last button {
+        font-size: 11px;
+        width: 180px;
+        height: 45px;
+    }
+
+    section .main-last a {
+        font-size: 13px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px;
+    }
 }
 
 
@@ -142,6 +173,15 @@
         font-size: 17px;
     }
 
+    .main {
+        height: auto;
+    }
+
+    section .main-last {
+        width: 700px;
+        height: auto;
+    }
+
 }
 
 
@@ -213,6 +253,20 @@
         flex-direction: column;
     }
 
+    .main {
+        height: auto;
+    }
+
+    section .main-last {
+        width: 550px;
+        height: auto;
+    }
+
+    section .main-last button {
+        width: 150px;
+        font-size: 9px;
+    }
+
 }
 
 @media only screen and (max-width:560px) {
@@ -267,6 +321,33 @@
     .sec-main a img {
         width: 400px;
     }
+
+    .main {
+        height: auto;
+    }
+
+
+    .main-last {
+        padding: 20px;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    footer .footer-main{
+        flex-direction: column;
+    }
+
+    footer .footer-p{
+        font-size: 18px;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+
+
 
 }
 
@@ -358,23 +439,27 @@
     .sec-main a img {
         width: 350px;
     }
+
+    .main {
+        height: auto;
+    }
 }
 
-@media only screen and (max-width:400px){
-    nav .nav-hero{
+@media only screen and (max-width:400px) {
+    nav .nav-hero {
         display: flex;
         justify-content: center;
         margin-left: 10px;
-    }  
+    }
 
-    nav .nav-main h1{
+    nav .nav-main h1 {
         font-size: 20px;
-    } 
+    }
 
-    .sec-imp{
-            width: 250px;
-            background-color: #010409;
-            padding: 15px;
+    .sec-imp {
+        width: 250px;
+        background-color: #010409;
+        padding: 15px;
     }
 
     .sec-main a img {
@@ -418,6 +503,10 @@
         font-size: 12px;
     }
 
+    .main {
+        height: auto;
+    }
+
 }
 
 @media only screen and (max-width:300px) {
@@ -447,5 +536,9 @@
 
     nav .nav-main .nav-p-p {
         font-size: 7px;
+    }
+
+    .main {
+        height: auto;
     }
 }
